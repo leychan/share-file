@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/allfiles;
+Actions=ShareFile;
+X-KDE-Priority=TopLevel
+
+
+[Desktop Action ShareFile]
+Name=Share This File
+Exec=konsole --hold -e qrcp %F
