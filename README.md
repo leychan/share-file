@@ -9,6 +9,7 @@ making dolphin and qrcp share files easier
 `kf5-config --path services`
 ### Copy .desktop To Your Actoins Service Path
 `git clone git@github.com:leychan/share-file.git`
+`cd share-file`
 `cp share-file.desktop ~/.local/share/kservice5/`
 `kbuildsycoca5`
 ### Check If Work
